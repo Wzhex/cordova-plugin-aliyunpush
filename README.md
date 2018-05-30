@@ -13,13 +13,13 @@
 - 通过 Cordova Plugins 安装，要求 Cordova CLI 5.0+：
 
   ```shell
-  cordova plugin add https://github.com/442623641/cordova-plugin-aliyunpush.git --variable ANDROID_KEY=${ANDROID_KEY} --variable ANDROID_SECRET=${ANDROID_SECRET} --variable IOS_KEY=${IOS_KEY} --variable IOS_SECRET=${IOS_SECRET}
+  cordova plugin add https://github.com/Wzhex/cordova-plugin-aliyunpush.git --save --variable ANDROID_KEY="ANDROID_KEY" --variable ANDROID_SECRET="ANDROID_SECRET" --variable IOS_KEY="IOS_KEY"--variable IOS_SECRET="IOS_SECRET"
   ```
 
 - 或下载到本地安装：
 
   ```shell
-  cordova plugin add Your_Plugin_Path --variable ANDROID_KEY=${ANDROID_KEY} --variable ANDROID_SECRET=${ANDROID_SECRET} --variable IOS_KEY=${IOS_KEY} --variable IOS_SECRET=${IOS_SECRET}
+  cordova plugin add Your_Plugin_Path --save --variable ANDROID_KEY="ANDROID_KEY" --variable ANDROID_SECRET="ANDROID_SECRET" --variable IOS_KEY="IOS_KEY"--variable IOS_SECRET="IOS_SECRET"
   ```
 
 
